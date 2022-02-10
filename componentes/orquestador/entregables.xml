@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<entregables>
+
+   <entregable>
+      <origen>.</origen>
+      <destino>d:/lenguajes/entregables/orquestadorPython</destino>
+      <directorio>api</directorio>
+      <directorio>back</directorio>
+      <directorio>front</directorio>   
+      <archivo>orquestador.whl</archivo> 
+      <archivo>run.bat</archivo>      
+   </entregable>
+
+</entregables>
