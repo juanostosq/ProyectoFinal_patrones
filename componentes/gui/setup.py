@@ -5,7 +5,7 @@ with open("README.md") as f:
 
 setuptools.setup(
     author="Cristhian Martinez, Juan Ostos, Jose Quintero",
-    author_email="camilofour1@gmail.com, xx@correo.com, jolquinteroc@correo.udistrital.edu.co",
+    author_email="camilofour1@gmail.com, jmostosq@correo.udistrital.edu.co, jolquinteroc@correo.udistrital.edu.co",
     name="gui",
     description="interfaces del sistema",
     version="1.0",
