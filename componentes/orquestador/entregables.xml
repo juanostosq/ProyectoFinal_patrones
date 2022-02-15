@@ -4,7 +4,7 @@
 
    <entregable>
       <origen>.</origen>
-      <destino>d:/lenguajes/entregables/orquestadorPython</destino>
+      <destino>D:/Documentos/UD/08/patrones/Proyecto-patrones/orquestadorPython</destino>
       <directorio>api</directorio>
       <directorio>back</directorio>
       <directorio>front</directorio>   

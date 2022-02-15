@@ -6,7 +6,7 @@
       <nombre>api</nombre>
       <ext>whl</ext>
       <origen>dist/</origen>
-      <destino>D:/lenguajes/proyectos/python/componentes/orquestador/api/</destino>
+      <destino>D:/Documentos/UD/08/patrones/Proyecto-patrones/componentes/orquestador/api/</destino>
    </componente>
    
 </componentes>

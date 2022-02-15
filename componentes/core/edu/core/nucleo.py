@@ -3,10 +3,11 @@ from edu.cableado.api import IRegla
 import tkinter as tk
 
 class Nucleo(IRegla):
-    def verificar_reglas(self):        
-        master = tk.Tk()       
-        tk.Message(master, text="verificar reglas").pack()
-        tk.mainloop()
+    def verificar_reglas(self):          
+        p = Producto()
+        p.verificar_reglas() 
+        v = Ventas()
+        v.verificar_reglas()
 
 class Producto(IRegla):
     def verificar_reglas(self):
