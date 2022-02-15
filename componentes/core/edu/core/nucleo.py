@@ -6,9 +6,13 @@ class Nucleo(IRegla):
     def verificar_reglas(self):          
         p = Producto()
         p.verificar_reglas() 
+        
         v = Ventas()
         v.verificar_reglas()
-
+        
+        u = Usuarios()
+        u.verificar_reglas()
+        
 class Usuarios(IRegla):
     def verificar_reglas(self):
         master = tk.Tk()

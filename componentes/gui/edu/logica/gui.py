@@ -4,24 +4,32 @@ import tkinter as tk
 
 class GUI(IEntrada,ISalida):
     def __init__(self):
-        self.iv = InformeVentas()
+        self.infVentas = InformeVentas()
         self.inv = Inventario()
-        self.pr = Producto()
-        self.cr = Carrito()
+        self.prod = Producto()
+        self.carr = Carrito()
+        self.adm = Administracion()
+        self.info = Informacion_empresa()
+        self.home = Home()
     
     def recibir_informacion(self):
+        self.home.recibir_informacion()
         self.inv.recibir_informacion()
-        self.cr.recibir_informacion()
+        self.carr.recibir_informacion()
+        self.adm.recibir_informacion()
         # master = tk.Tk()       
         # tk.Message(master, text="recibiendo informacion").pack()
         # tk.mainloop()  
         
    
     def desplegar_informacion(self):
-        self.iv.desplegar_informacion()
+        self.home.desplegar_informacion()
+        self.info.desplegar_informacion()
+        self.infVentas.desplegar_informacion()
         self.inv.desplegar_informacion()
-        self.pr.desplegar_informacion()
-        self.cr.desplegar_informacion()
+        self.prod.desplegar_informacion()
+        self.carr.desplegar_informacion()
+        self.adm.recibir_informacion()
         # master = tk.Tk()       
         # tk.Message(master, text="desplegando informacion").pack()
         # tk.mainloop()  
