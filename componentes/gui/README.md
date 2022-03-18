@@ -1,3 +1,0 @@
-# Package api
-
-By Sandro.
